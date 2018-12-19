@@ -93,3 +93,5 @@ pricechecker will clean up prices to floating points
 This holds functions that are not true/false checks that are frequently used in testing.
 
 Sequences is a parent class for working with WebDriver sequences, which hold several WebDriver actions together so they can be executed in sequence. It is used for MenuText.searchfor, which sends text to one element, then clicks a second element. find will be extremely common, it’s a basic function for using the WebDriver to find an element. It takes in the driver and tuples, in the same format provided in Pages. Here’s an example: find(wdriver, ItemPage.productnames)
+
+**Further Documentation is available in _build/singlehtml/index.html**
